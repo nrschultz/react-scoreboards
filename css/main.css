@@ -1,0 +1,35 @@
+.scoreboard {
+    margin: 20px;
+    width: auto;
+    height: 69px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid #eee;
+    background-color: #1b73bc;
+}
+
+.gameContainer {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    width: 200px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.gameInfo {
+    text-align: center;
+}
+
+.dateDivider {
+    display: inline-block;
+    padding: 5px;
+    width: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    -ms-transform: rotate(-90deg) translatex(10px); /* IE 9 */
+    -webkit-transform: rotate(-90deg) translatex(10px); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg) translatex(10px);
+}
